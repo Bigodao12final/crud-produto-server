@@ -15,6 +15,7 @@ R- Ele é basicamente um evento, que quando o conteúdo do arquivo HTML for carr
 6)  function loadProducts() {
         fetch('http://localhost:3000/products'). O que é esse fetch? Para que serve?
 7) No fetch, tem .then e .catch. O que é isso? Explique.
+R:o .then()  e o .catch() são métodos usados para lidar com operações assíncronadas em JavaScript, sendo chamadas de rede com fetch. O .then() é executado quando a operação é concluída com sucesso, fazendo com que seja acessado o resultado trabalhando nele e retornando. Já o .catch() é executado quando ocorre um erro na operação, como falhas de conexão ou problemas no servidor, podendo servir para capturar e tratar os erros de forma correta. 
 8) Explique a function addProductToTable(product) {. Prepare-se para fazer um teste de mesa demonstrando seu funcionamento. Onde esse função é chamada?
 9) Na função addProductToTable, tem um querySelecto. O que é isso? Para que serve?
 
